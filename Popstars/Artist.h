@@ -11,12 +11,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// The artist class is a data model class
 @interface Artist : NSObject
 
+// An artist has two properties, a name and an image
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) UIImage *image;
 
-- (instancetype)initWithName:(NSString *)name andImage:(UIImage *)image;
+// This convenience initializer is used to create an artist object
+// with the provided name and image
+- (instancetype)initWithName:(NSString *)name
+                    andImage:(UIImage *)image;
 
 @end
 

@@ -11,6 +11,7 @@
 
 @interface ArtistFactory()
 
+// This private property is an array of all possible artists
 @property (strong, nonatomic, class, readonly) NSArray *allArtists;
 
 @end

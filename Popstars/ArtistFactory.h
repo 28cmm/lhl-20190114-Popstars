@@ -11,8 +11,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// This data model class creates artist objects
 @interface ArtistFactory : NSObject
 
+// This class method randomly generates an artist object
 + (Artist *)nextArtist;
 
 @end
