@@ -13,6 +13,8 @@
 		2A466C8321EC53F0008D8E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A466C8221EC53F0008D8E0B /* Assets.xcassets */; };
 		2A466C8621EC53F0008D8E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A466C8421EC53F0008D8E0B /* LaunchScreen.storyboard */; };
 		2A466C8921EC53F0008D8E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A466C8821EC53F0008D8E0B /* main.m */; };
+		2A466C9121EC5666008D8E0B /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A466C9021EC5666008D8E0B /* Artist.m */; };
+		2A466C9421EC5972008D8E0B /* ArtistFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A466C9321EC5972008D8E0B /* ArtistFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2A466C8521EC53F0008D8E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A466C8721EC53F0008D8E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A466C8821EC53F0008D8E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A466C8F21EC5666008D8E0B /* Artist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		2A466C9021EC5666008D8E0B /* Artist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		2A466C9221EC5972008D8E0B /* ArtistFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistFactory.h; sourceTree = "<group>"; };
+		2A466C9321EC5972008D8E0B /* ArtistFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				2A466C7C21EC53EE008D8E0B /* ViewController.h */,
 				2A466C7D21EC53EE008D8E0B /* ViewController.m */,
 				2A466C7F21EC53EE008D8E0B /* Main.storyboard */,
+				2A466C8F21EC5666008D8E0B /* Artist.h */,
+				2A466C9021EC5666008D8E0B /* Artist.m */,
+				2A466C9221EC5972008D8E0B /* ArtistFactory.h */,
+				2A466C9321EC5972008D8E0B /* ArtistFactory.m */,
 				2A466C8221EC53F0008D8E0B /* Assets.xcassets */,
 				2A466C8421EC53F0008D8E0B /* LaunchScreen.storyboard */,
 				2A466C8721EC53F0008D8E0B /* Info.plist */,
@@ -143,6 +153,8 @@
 			files = (
 				2A466C7E21EC53EE008D8E0B /* ViewController.m in Sources */,
 				2A466C8921EC53F0008D8E0B /* main.m in Sources */,
+				2A466C9421EC5972008D8E0B /* ArtistFactory.m in Sources */,
+				2A466C9121EC5666008D8E0B /* Artist.m in Sources */,
 				2A466C7B21EC53EE008D8E0B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
